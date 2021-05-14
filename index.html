@@ -9,14 +9,44 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link type="text/css" rel="stylesheet" href="main.css" />
+
     <title>Assignment 3 - Bootstrap Grid System</title>
 </head>
 
 <body>
+
     <h1>Gallery of Images</h1>
 
-    <div>
-        <img src="img/hw2-image1.png" title="Building with many windows" alt="Building with many windows" />
+    <div class="container">
+        <div class="row justify-content-center row-cols-1 row-cols-sm-3">
+            <div class="col">
+                <img class="shadow-lg mb-3" src="img/hw2-image1.png" title="Building with many windows" alt="Building with many windows" />
+                <img class="shadow-lg mb-3" src="img/hw2-image3.png" title="Grafitti art" alt="Grafitti art" />
+                <img class="shadow-lg mb-3" src="img/hw2-image7.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
+            </div>
+
+
+
+            <div class="col">
+                <img class="shadow-lg mb-3" src="img/hw2-image2.png" title="Cupcakes" alt="Cupcakes" />
+                <img class="shadow-lg mb-3" src="img/hw2-image5.png" title="Building with many windows" alt="Building with many windows" />
+                <img class="shadow-lg mb-3" src="img/hw2-image8.png" title="Kid posing in front of grafitti art" alt="Kid posing in front of grafitti art" />
+            </div>
+
+
+
+            <div class="col">
+                <img class="shadow-lg mb-3" src="img/hw2-image4.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
+                <img class="shadow-lg mb-3" src="img/hw2-image9.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
+                <img class="shadow-lg mb-3" src="img/hw2-image6.png" title="Headphones" alt="Headphones" />
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <img src="img/hw2-image1.png" title="Building with many windows" alt="Building with many windows" />
         <img src="img/hw2-image2.png" title="Cupcakes" alt="Cupcakes" />
         <img src="img/hw2-image3.png" title="Grafitti art" alt="Grafitti art" />
         <img src="img/hw2-image4.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
@@ -24,8 +54,54 @@
         <img src="img/hw2-image6.png" title="Headphones" alt="Headphones" />
         <img src="img/hw2-image7.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
         <img src="img/hw2-image8.png" title="Kid posing in front of grafitti art" alt="Kid posing in front of grafitti art" />
-        <img src="img/hw2-image9.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
-    </div>
+        <img src="img/hw2-image9.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" /> -->
+
+
+    <!-- <div class="container">
+        <div class="row row-cols-sm-8 no-gutters">
+            <div class="col">
+                <img src="img/hw2-image1.png" title="Building with many windows" alt="Building with many windows" />
+                <img src="img/hw2-image2.png" title="Cupcakes" alt="Cupcakes" />
+                <img src="img/hw2-image3.png" title="Grafitti art" alt="Grafitti art" />
+                <div class="clearfix"></div>
+                <img src="img/hw2-image4.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
+                <img src="img/hw2-image5.png" title="Building with many windows" alt="Building with many windows" />
+                <img src="img/hw2-image6.png" title="Headphones" alt="Headphones" />
+                <div class="clearfix"></div>
+                <img src="img/hw2-image7.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
+                <img src="img/hw2-image8.png" title="Kid posing in front of grafitti art" alt="Kid posing in front of grafitti art" />
+                <img src="img/hw2-image9.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- <div class="container">
+        <div class="row no-gutters">
+            <div class="col">
+                <img src="img/hw2-image1.png" title="Building with many windows" alt="Building with many windows" />
+                <img src="img/hw2-image2.png" title="Cupcakes" alt="Cupcakes" />
+                <img src="img/hw2-image4.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
+            </div>
+
+
+            <div class="row no-gutters">
+                <div class="col">
+                    <img src="img/hw2-image3.png" title="Grafitti art" alt="Grafitti art" />
+                    <img src="img/hw2-image5.png" title="Building with many windows" alt="Building with many windows" />
+                    <img src="img/hw2-image6.png" title="Headphones" alt="Headphones" />
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col">
+                    <img src="img/hw2-image7.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
+                    <img src="img/hw2-image8.png" title="Kid posing in front of grafitti art" alt="Kid posing in front of grafitti art" />
+                    <img src="img/hw2-image9.png" title="Bird's eye view of the beach" alt="Bird's eye view of the beach" />
+                </div>
+            </div>
+        </div> -->
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
